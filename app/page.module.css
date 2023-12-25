@@ -1,0 +1,82 @@
+.form {
+}
+.header{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+  /* border-bottom: 1px solid lightgray;
+  width: 70%; */
+}
+.mandatory {
+  color: red;
+}
+
+.dark-btn {
+  color: #FFF;
+  padding: 0.1rem 1rem;
+  border-radius: 2px;
+  border: 0.3px solid #92A2B1;
+  background: linear-gradient(180deg, #264966 0%, #12344D 100%);
+}
+
+.defaultpagecontainer {
+  position: absolute;
+  display: flex;
+  scroll-behavior: smooth;
+  /* right: 0.45rem; */
+  /* top: 25%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  left: auto;
+  right: auto;
+  gap: 10px;
+  padding: 50px;
+}
+
+.maintabcontainer {
+  position: sticky;
+  background: #ffffff;
+  top: 0;
+  z-index: 98;
+  border: 1px solid lightgray;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-btn:hover {
+  color: #FFF;
+}
+
+.gridTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gridTable th, .gridTable td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+
+.gridTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.gridTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.gridTable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.gridTable td {
+  padding: 10px;
+}
+
+.gridTable th, .gridTable td {
+  width: 25%; /* Adjust the width as needed */
+}
